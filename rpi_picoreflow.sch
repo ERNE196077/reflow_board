@@ -1,0 +1,360 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:crumpschemes
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Raspberry_Pi_2_3 J2
+U 1 1 5AEABBFD
+P 5350 3700
+F 0 "J2" H 6050 2450 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 4950 4600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 6350 4950 50  0001 C CNN
+F 3 "" H 5400 3550 50  0001 C CNN
+	1    5350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x06 J3
+U 1 1 5AEABC61
+P 5900 1550
+F 0 "J3" H 5900 1850 50  0000 C CNN
+F 1 "Conn_01x06" H 5900 1150 50  0000 C CNN
+F 2 "" H 5900 1550 50  0001 C CNN
+F 3 "" H 5900 1550 50  0001 C CNN
+	1    5900 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 1750 5800 2000
+Wire Wire Line
+	5800 2000 5450 2000
+Wire Wire Line
+	5450 2000 5450 2400
+Wire Wire Line
+	5900 1750 5900 2000
+Wire Wire Line
+	5900 2000 6700 2000
+Wire Wire Line
+	6700 2000 6700 5300
+Wire Wire Line
+	6700 5300 4950 5300
+Wire Wire Line
+	4950 5300 4950 5000
+Wire Wire Line
+	4450 3100 4200 3100
+Wire Wire Line
+	4200 3100 4200 2150
+Wire Wire Line
+	4200 2150 6000 2150
+Wire Wire Line
+	6000 2150 6000 1750
+Wire Wire Line
+	4450 4100 3950 4100
+Wire Wire Line
+	3950 4100 3950 2200
+Wire Wire Line
+	3950 2200 6100 2200
+Wire Wire Line
+	6100 2200 6100 1750
+Wire Wire Line
+	4450 3600 4100 3600
+Wire Wire Line
+	4100 3600 4100 2100
+Wire Wire Line
+	4100 2100 6200 2100
+Wire Wire Line
+	6200 2100 6200 1750
+$Comp
+L Conn_01x02 J4
+U 1 1 5AEABDFA
+P 7350 4650
+F 0 "J4" H 7350 4750 50  0000 C CNN
+F 1 "Conn_01x02" H 7350 4450 50  0000 C CNN
+F 2 "" H 7350 4650 50  0001 C CNN
+F 3 "" H 7350 4650 50  0001 C CNN
+	1    7350 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4650 7000 4650
+Wire Wire Line
+	7000 4650 7000 4500
+Wire Wire Line
+	7000 4500 6250 4500
+Wire Wire Line
+	7150 4750 7000 4750
+Wire Wire Line
+	7000 4750 7000 5200
+Wire Wire Line
+	7000 5200 5050 5200
+Wire Wire Line
+	5050 5200 5050 5000
+$Comp
+L IRLB8721PBF Q1
+U 1 1 5AEAE5AC
+P 9000 3250
+F 0 "Q1" H 9250 3325 50  0000 L CNN
+F 1 "IRLB8721PBF" H 9250 3250 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 9250 3175 50  0001 L CIN
+F 3 "" H 9000 3250 50  0001 L CNN
+	1    9000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J5
+U 1 1 5AEAE60B
+P 7400 1900
+F 0 "J5" H 7400 2000 50  0000 C CNN
+F 1 "Conn_01x02" H 7400 1700 50  0000 C CNN
+F 2 "" H 7400 1900 50  0001 C CNN
+F 3 "" H 7400 1900 50  0001 C CNN
+	1    7400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5AEAE64C
+P 7000 2050
+F 0 "#PWR01" H 7000 1800 50  0001 C CNN
+F 1 "GND" H 7000 1900 50  0000 C CNN
+F 2 "" H 7000 2050 50  0001 C CNN
+F 3 "" H 7000 2050 50  0001 C CNN
+	1    7000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR02
+U 1 1 5AEAE66F
+P 7000 1850
+F 0 "#PWR02" H 7000 1700 50  0001 C CNN
+F 1 "+12V" H 7000 1990 50  0000 C CNN
+F 2 "" H 7000 1850 50  0001 C CNN
+F 3 "" H 7000 1850 50  0001 C CNN
+	1    7000 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1850 7000 1900
+Wire Wire Line
+	7000 1900 7200 1900
+Wire Wire Line
+	7000 2050 7000 2000
+Wire Wire Line
+	7000 2000 7200 2000
+$Comp
+L Fan M1
+U 1 1 5AEAE6DD
+P 9100 2600
+F 0 "M1" H 9200 2800 50  0000 L CNN
+F 1 "Fan" H 9200 2500 50  0000 L TNN
+F 2 "" H 9100 2610 50  0001 C CNN
+F 3 "" H 9100 2610 50  0001 C CNN
+	1    9100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2800 9100 3050
+$Comp
+L +12V #PWR03
+U 1 1 5AEAE931
+P 9100 2300
+F 0 "#PWR03" H 9100 2150 50  0001 C CNN
+F 1 "+12V" H 9100 2440 50  0000 C CNN
+F 2 "" H 9100 2300 50  0001 C CNN
+F 3 "" H 9100 2300 50  0001 C CNN
+	1    9100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_US R1
+U 1 1 5AEAE951
+P 8650 3450
+F 0 "R1" V 8750 3450 50  0000 C CNN
+F 1 "R_US" V 8550 3450 50  0000 C CNN
+F 2 "" V 8690 3440 50  0001 C CNN
+F 3 "" H 8650 3450 50  0001 C CNN
+	1    8650 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3600 9100 3600
+Wire Wire Line
+	9100 3450 9100 3750
+Wire Wire Line
+	8350 3300 8800 3300
+$Comp
+L GND #PWR04
+U 1 1 5AEAEC71
+P 9100 3750
+F 0 "#PWR04" H 9100 3500 50  0001 C CNN
+F 1 "GND" H 9100 3600 50  0000 C CNN
+F 2 "" H 9100 3750 50  0001 C CNN
+F 3 "" H 9100 3750 50  0001 C CNN
+	1    9100 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 9100 3600
+$Comp
+L SN74AHCT125 U1
+U 1 1 5AEAECC2
+P 7650 3100
+F 0 "U1" H 7650 2300 60  0000 C CNN
+F 1 "SN74AHCT125" H 7650 3750 60  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W10.16mm" H 7650 3100 60  0001 C CNN
+F 3 "" H 7650 3100 60  0001 C CNN
+	1    7650 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 6700 2700
+Wire Wire Line
+	6700 2700 7150 2700
+Wire Wire Line
+	5150 2400 5150 2300
+Wire Wire Line
+	5150 2300 6550 2300
+Wire Wire Line
+	6550 2300 6550 3750
+Wire Wire Line
+	6550 3750 7150 3750
+Wire Wire Line
+	8100 2600 8350 2600
+Wire Wire Line
+	8350 2600 8350 3300
+Connection ~ 8650 3300
+NoConn ~ 8100 2900
+NoConn ~ 7150 2900
+NoConn ~ 7150 3000
+NoConn ~ 7150 3200
+NoConn ~ 7150 3300
+NoConn ~ 7150 3500
+NoConn ~ 7150 3600
+NoConn ~ 8100 3500
+NoConn ~ 8100 3200
+Wire Wire Line
+	8100 3750 8100 4150
+Wire Wire Line
+	8100 4150 6700 4150
+Connection ~ 6700 4150
+Wire Wire Line
+	6250 4400 6400 4400
+Wire Wire Line
+	6400 4400 6400 2600
+Wire Wire Line
+	6400 2600 7150 2600
+$Comp
+L Jumper JP1
+U 1 1 5AEAF469
+P 3650 4500
+F 0 "JP1" H 3650 4650 50  0000 C CNN
+F 1 "Jumper" H 3650 4420 50  0000 C CNN
+F 2 "" H 3650 4500 50  0001 C CNN
+F 3 "" H 3650 4500 50  0001 C CNN
+	1    3650 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 3200 3650 3200
+Wire Wire Line
+	3650 3200 3650 4200
+Wire Wire Line
+	3650 4800 3650 5400
+Wire Wire Line
+	3650 5400 5150 5400
+Wire Wire Line
+	5150 5400 5150 5000
+$Comp
+L Conn_01x02 J1
+U 1 1 5AEAF61C
+P 3000 4550
+F 0 "J1" H 3000 4650 50  0000 C CNN
+F 1 "Conn_01x02" H 3000 4350 50  0000 C CNN
+F 2 "" H 3000 4550 50  0001 C CNN
+F 3 "" H 3000 4550 50  0001 C CNN
+	1    3000 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 4450 3200 4050
+Wire Wire Line
+	3200 4050 3650 4050
+Connection ~ 3650 4050
+Wire Wire Line
+	3200 4550 3200 4900
+Wire Wire Line
+	3200 4900 3650 4900
+Connection ~ 3650 4900
+NoConn ~ 4450 3000
+NoConn ~ 4450 3300
+NoConn ~ 4450 3400
+NoConn ~ 4450 3500
+NoConn ~ 4450 3700
+NoConn ~ 4450 3800
+NoConn ~ 4450 3900
+NoConn ~ 4450 4000
+NoConn ~ 4450 4400
+NoConn ~ 4450 4500
+NoConn ~ 5250 5000
+NoConn ~ 5350 5000
+NoConn ~ 5450 5000
+NoConn ~ 5550 5000
+NoConn ~ 5650 5000
+NoConn ~ 6250 4200
+NoConn ~ 6250 4100
+NoConn ~ 6250 3900
+NoConn ~ 6250 3800
+NoConn ~ 6250 3700
+NoConn ~ 6250 3600
+NoConn ~ 6250 3500
+NoConn ~ 6250 3300
+NoConn ~ 6250 3200
+NoConn ~ 6250 3000
+NoConn ~ 6250 2900
+NoConn ~ 6250 2800
+NoConn ~ 5550 2400
+NoConn ~ 5250 2400
+NoConn ~ 5700 1750
+$EndSCHEMATC
